@@ -1,0 +1,123 @@
+html {
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: blanchedalmond;
+    line-height: 1.5;
+    max-width: 1000px;
+    color: rgb(97, 93, 93);  
+}
+hr {
+    color: black;
+}
+
+
+.intro {
+    display: flex;
+    align-items: baseline;
+}
+.intro h2 {
+    margin-left: auto;
+}
+.nav nav{
+    display:flex;
+    align-items: flex-start;
+}
+.nav ul {
+    display:flex;
+    list-style: none;
+    gap: 15px;
+    margin-left: auto;
+}
+
+.container {
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 12px;
+    margin:5px;
+    gap: 10px;
+}
+
+.profile-card {
+    display:flex;
+    gap: 15px;
+}
+
+.profile-content {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.6);
+}
+
+a:hover {
+    color: red;
+}
+
+.interest {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.interest p {
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: black;
+}
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.skill p {
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: black;
+}
+@media (max-width:768px) {
+    .profile-card {
+    display:flex;
+    gap: 10px;
+    padding:5px;
+    margin:5px;
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+img {
+    width: 200px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.6);
+}
+.profile-card table {
+    margin: auto;
+}
+h1 {
+    font-size: 26px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 20px;
+}
+p, a, table, li {
+    font-size: 14px;
+}
+}
